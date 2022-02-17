@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#D3D3D3">
+<!--This is my own work-->
+
+<a href="HomePage.html">HomePage</a>
+
+<head>
+<h1>Register</h1>
+</head>
+
+<form action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+
+<h2>Name and Address</h3>
+
+<b>First name:<input type="text" name="firstname"/> &nbsp Last name:<input type="text" name="lastname"/></b>
+<br/>
+
+<b>Address 1:<input type="text" name="address1"/> &nbsp Address 2:<input type="text" name="address2"/> &nbsp </b>
+
+<br/>
+
+<b>City:<input type="text" name"city"/> &nbsp State:<select name="state"></b>
+<option>GA</option>
+<option>AL</option>
+<option>TN</option>
+<option>AK</option>
+<option>CA</option>
+<option>CO</option>
+<option>CT</option>
+<option>FL</option>
+<option>IN</option>
+<option>HI</option>
+<option>ID</option>
+<option>IL</option>
+<option>Other</option>
+</select>
+
+&nbsp
+
+<b>Zip code:<input type="text" maxlength="5" name="zipcode"/></b>
+
+<h2>Security</h2>
+<b>Password:<input type="password" name="userPassword"/>
+<br/>
+Password Hint:<input type="text" name="PasswordHint" value="In which city did your maternal grandparents live?" size="42"/>
+<br/>
+Password Hint Answer:<input type="text" name="PasswordAnswer"/></b>
+
+
+<h2>Preferences</h2>
+
+<b>Favorite Thrifted Item: &nbsp
+Dress<input type="radio" name="Favorite Thrifted Item" value="dress"/>
+Blouse<input type="radio" name="Favorite Thrifted Item" value="blouse"/>
+Sweater<input type="radio" name="Favorite Thrifted Item" value="sweater"/>
+Jacket<input type="radio" name="Favorite Thrifted Item" value="jacket"/>
+</b>
+<br/>
+
+<b>Clothing Condition: &nbsp
+Unused<input type="checkbox" name="unused"/>
+6 months old<input type="checkbox" name="6 months old"/>
+1 year old<input type="checkbox" name="1 year old"/>
+3 years old<input type="checkbox" name="3 years old"/>
+</b>
+
+<br/>
+<br/>
+
+
+<b>Other Preferences</b>:<textarea rows="10" cols="40" name="OtherPreferences">
+</textarea>
+
+
+
+
+<input type="hidden" name="hiddenField" value="hidden value"/>
+<br/>
+<br/>
+
+<input type="submit" value="Submit"/>  <input type="reset" value="Reset"/>
+
+
+
+
+</form>
+</body>
+</html>
